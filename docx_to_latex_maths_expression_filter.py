@@ -57,7 +57,7 @@ def main():
     # Path to the output LaTeX file
     latex_file_path = 'output.tex'
     # Path to the output file for extracted math expressions
-    math_output_file_path = 'math_expressions.txt'
+    math_output_file_path = 'math_expressions.tex'
 
     # Step 1: Convert Word to LaTeX
     convert_word_to_latex(word_file_path, latex_file_path)
